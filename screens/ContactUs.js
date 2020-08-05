@@ -15,14 +15,7 @@ export default class App extends React.Component {
         <View style={styles.container}>
         <StatusBar style="auto" />
             <ScrollView style={styles.scrollView}>
-                {/* {this.state.fontLoaded ? (
-                    <Text style={styles.title}>CHOOSE YOUR DESTINATION</Text>
-                ) : ( 
-                    <ActivityIndicator size="small"/>
-                )} */}
-                {/* <Text style={styles.title}>CHOOSE YOUR DESTINATION</Text> */}
-                {/* <ReactNative.Text style={styles.title}>CHOOSE YOUR DESTINATION</ReactNative.Text> */}
-
+                
             </ScrollView>
         </View>
       );

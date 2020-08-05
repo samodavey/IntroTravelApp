@@ -6,9 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "https://d3k9ljo62xl25w.cloudfront.net/media/site_images/Intro_Travel_LogoSting_White-CENTRED.gif",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#62c8ca"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
