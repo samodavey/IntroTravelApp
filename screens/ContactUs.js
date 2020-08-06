@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import ReactNative, { StyleSheet, Text, View, Image, Dimensions, SafeAreaView, ScrollView, ActivityIndicator, ImageBackground } from 'react-native';
-import { min } from 'react-native-reanimated'
 import { Fontisto } from '@expo/vector-icons';
 import { Font } from 'expo-font'
 
@@ -15,6 +14,7 @@ export default class App extends React.Component {
         <View style={styles.container}>
         <StatusBar style="auto" />
             <ScrollView style={styles.scrollView}>
+                <ReactNative.Text style={styles.title}>CONTACT US</ReactNative.Text>
                 
             </ScrollView>
         </View>

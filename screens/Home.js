@@ -4,6 +4,7 @@ import ReactNative, { StyleSheet, Text, View, Image, Dimensions, SafeAreaView, S
 import { min } from 'react-native-reanimated'
 import { Fontisto } from '@expo/vector-icons';
 import { Font } from 'expo-font'
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 
 const {width : WIDTH } = Dimensions.get('window')
@@ -17,30 +18,53 @@ export default class App extends React.Component {
             <ScrollView style={styles.scrollView}>
                 <ReactNative.Text style={styles.title}>CHOOSE YOUR DESTINATION</ReactNative.Text>
 
-                <ImageBackground source={require('../assets/trips/bali-min.jpg')} style={styles.bannerImage}>
-                    <Text style={styles.countryName}>BALI</Text>
-                </ImageBackground>
-                <ImageBackground source={require('../assets/trips/thailand-min.jpg')} style={styles.bannerImage}>
-                    <Text style={styles.countryName}>THAILAND</Text>
-                </ImageBackground>
-                <ImageBackground source={require('../assets/trips/vietnam-min.jpg')} style={styles.bannerImage}>
-                    <Text style={styles.countryName}>VIETNAM</Text>
-                </ImageBackground>
-                <ImageBackground source={require('../assets/trips/cambodia-min.jpg')} style={styles.bannerImage}>
-                    <Text style={styles.countryName}>CAMBODIA</Text>
-                </ImageBackground>
-                <ImageBackground source={require('../assets/trips/srilanka-min.jpg')} style={styles.bannerImage}>
-                    <Text style={styles.countryName}>Sri Lanka</Text>
-                </ImageBackground>
-                <ImageBackground source={require('../assets/trips/japan-min.jpg')} style={styles.bannerImage}>
-                    <Text style={styles.countryName}>Japan</Text>
-                </ImageBackground>
-                <ImageBackground source={require('../assets/trips/australia-min.jpg')} style={styles.bannerImage}>
-                    <Text style={styles.countryName}>Australia</Text>
-                </ImageBackground>
-                <ImageBackground source={require('../assets/trips/multitrip-min.jpg')} style={styles.bannerImage}>
-                    <Text style={styles.countryName}>Multi-Country</Text>
-                </ImageBackground>
+                <TouchableOpacity>
+                  <ImageBackground source={require('../assets/trips/bali-min.jpg')} style={styles.bannerImage}>
+                      <Text style={styles.countryName}>BALI</Text>
+                  </ImageBackground>
+                </TouchableOpacity>
+                  
+                <TouchableOpacity>
+                  <ImageBackground source={require('../assets/trips/thailand-min.jpg')} style={styles.bannerImage}>
+                      <Text style={styles.countryName}>THAILAND</Text>
+                  </ImageBackground>
+                </TouchableOpacity>
+
+                <TouchableOpacity>
+                  <ImageBackground source={require('../assets/trips/vietnam-min.jpg')} style={styles.bannerImage}>
+                      <Text style={styles.countryName}>VIETNAM</Text>
+                  </ImageBackground>
+                </TouchableOpacity>
+
+                <TouchableOpacity>
+                  <ImageBackground source={require('../assets/trips/cambodia-min.jpg')} style={styles.bannerImage}>
+                      <Text style={styles.countryName}>CAMBODIA</Text>
+                  </ImageBackground>
+                </TouchableOpacity>
+
+                <TouchableOpacity>
+                  <ImageBackground source={require('../assets/trips/srilanka-min.jpg')} style={styles.bannerImage}>
+                      <Text style={styles.countryName}>Sri Lanka</Text>
+                  </ImageBackground>
+                </TouchableOpacity>
+
+                <TouchableOpacity>
+                  <ImageBackground source={require('../assets/trips/japan-min.jpg')} style={styles.bannerImage}>
+                      <Text style={styles.countryName}>Japan</Text>
+                  </ImageBackground>
+                </TouchableOpacity>
+
+                <TouchableOpacity>
+                  <ImageBackground source={require('../assets/trips/australia-min.jpg')} style={styles.bannerImage}>
+                      <Text style={styles.countryName}>Australia</Text>
+                  </ImageBackground>
+                </TouchableOpacity>
+
+                <TouchableOpacity>
+                  <ImageBackground source={require('../assets/trips/multitrip-min.jpg')} style={styles.bannerImage}>
+                      <Text style={styles.countryName}>Multi-Country</Text>
+                  </ImageBackground>
+                </TouchableOpacity>
 
             </ScrollView>
         </View>

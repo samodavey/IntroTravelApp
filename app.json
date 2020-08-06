@@ -4,9 +4,9 @@
     "slug": "IntroTravelApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.jpg",
     "splash": {
-      "image": "https://d3k9ljo62xl25w.cloudfront.net/media/site_images/Intro_Travel_LogoSting_White-CENTRED.gif",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#62c8ca"
     },
